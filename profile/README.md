@@ -6,17 +6,6 @@
 
 The central repository for this project is [enigmaglass](https://github.com/enigmaglass-docs).
 
-## Project Overview
-Welcome to the Enigma Glass training resource. This site has been designed to provide a framework that Enigma Glass or other students can continue to build on.
-
-The major factor that informed our design decisions was ease of development and integration. This project has been setup in a way that attempts to make it as easy as possible to contribute to. The site content development work is done mostly in markdown, but the site can be customized with HTML, CSS, and JS. Due to the include / override nature of Ruby on Rails and Gems, the site will run well and look good without anything other than markdown. 
-
-This project deploys to three distinct environments and features automated build and deploy workflows, in addition to automated testing and dependency scanning.
-
-The site is intended to be served by Jekyll; it was built using a gem theme called `just-the-docs`. When the site is built Jekyll parses all of the markdown files in the directory looking for templating tags and markdown. It then outputs the `_site` directory which contains the static HTML / CSS / JS for the site.
-
-When the site is built a search index is created to be used by Lunr.js to support the site's full-text search functionality. The search runs as clientside javascript, but as this is a small static site the search is still lightning fast.
-
 ## Development Flow
 1. Create feature branch off of develop
 
