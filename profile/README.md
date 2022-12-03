@@ -37,6 +37,8 @@ The Pheonix deploy is entireley optional.
 
 A push to `develop` will trigger [the Development Build and Deploy workflow](https://github.com/enigmaglass-docs/enigmaglass/actions/workflows/deploy-dev.yml) which will build the site and deploy it to [the enigmaglass-dev repository](https://github.com/enigmaglass-docs/enigmaglass-dev). The dev site can be accessed [here](https://enigmaglass-docs.github.io/enigmaglass-dev/).
 
+[![Development Build and Deploy](https://github.com/enigmaglass-docs/enigmaglass/actions/workflows/deploy-dev.yml/badge.svg?branch=development)](https://github.com/enigmaglass-docs/enigmaglass/actions/workflows/deploy-dev.yml)
+
 5. To complete the contribution and update the production site, create a pull request merging `develop` into `master`. In order to merge into `master` you will need 1 pr approval, [the development environment](https://github.com/enigmaglass-docs/enigmaglass/deployments/activity_log?environment=development) must be successfuly deployed to.
 
 Your push into `master` will trigger [the Github pages build and deploy workflow](https://github.com/enigmaglass-docs/enigmaglass/actions/workflows/pages/pages-build-deployment) that deploys to [the github pages environment](https://github.com/enigmaglass-docs/enigmaglass/deployments/activity_log?environment=github-pages).
