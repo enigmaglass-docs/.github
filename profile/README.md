@@ -25,7 +25,7 @@ git checkout -b feature/my-cool-feature develop
 
 3. Create a pull request to merge your branch with `develop`.
 
-This pr will trigger [the Pheonix deploy](https://github.com/enigmaglass-docs/enigmaglass/actions/workflows/deploy-pr.yml) which creates a shortlived repository that is ownded by the enigmaglass-docs organization before deploying a build of your branch to that repo. Your version of the site will then be served at it's own external ip address.
+This pr will trigger [the Pheonix deploy](https://github.com/enigmaglass-docs/enigmaglass/actions/workflows/deploy-pr.yml) which creates a shortlived repository that is owned by the enigmaglass-docs organization before deploying a build of your branch to that repo. Your version of the site will then be served at it's own external ip address.
 
 This stage is usefull for getting an idea of what your changes will look like if you can't run the site locally, or if you want to verify that the site behaves as it should when deployed on github pages. These workflow runs are aggregated in [the pr-staging environment](https://github.com/enigmaglass-docs/enigmaglass/deployments/activity_log?environment=pr-staging).
 
