@@ -42,3 +42,5 @@ A push to `develop` will trigger [the Development Build and Deploy workflow](htt
 5. To complete the contribution and update the production site, create a pull request merging `develop` into `master`. In order to merge into `master` you will need 1 pr approval, [the development environment](https://github.com/enigmaglass-docs/enigmaglass/deployments/activity_log?environment=development) must be successfuly deployed to.
 
 Your push into `master` will trigger [the Github pages build and deploy workflow](https://github.com/enigmaglass-docs/enigmaglass/actions/workflows/pages/pages-build-deployment) that deploys to [the github pages environment](https://github.com/enigmaglass-docs/enigmaglass/deployments/activity_log?environment=github-pages).
+
+[![pages-build-deployment](https://github.com/enigmaglass-docs/enigmaglass/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/enigmaglass-docs/enigmaglass/actions/workflows/pages/pages-build-deployment)
