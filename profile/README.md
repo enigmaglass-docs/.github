@@ -106,4 +106,4 @@ Once your local branch has been pushed to the remote server on Github, you can c
 
 ![verify prod deploy](https://github.com/enigmaglass-docs/.github/blob/main/profile/assets/gif/verify-prod-deploy.gif)
 
-That's it! You've successfully update the site!
+That's it! You've successfully updated the site!
